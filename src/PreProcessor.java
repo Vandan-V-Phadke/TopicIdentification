@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
-
-
 public class PreProcessor {
 	
 	private String text;
@@ -10,7 +8,7 @@ public class PreProcessor {
 	List<String> terms ; 
 	
 	public PreProcessor(String text){
-		this.text = text ;
+		this.text = text.toLowerCase() ;
 		stopwords = StopWords.getStopWordsFromFile("SmartStopList.txt");
 		terms = new ArrayList<String>();
 	}
@@ -22,7 +20,7 @@ public class PreProcessor {
 	}
 	
 	private void removePunctuation(){
-		text = text.replaceAll(",|.|;|:|\"", " ");
+		text = text.replaceAll("\\.\\s*|\\?\\s*|\\s*,\\s*|\\s*!\\s*", " ");
 	}
 	
 	private void removeStopword(){
@@ -30,7 +28,8 @@ public class PreProcessor {
 		String[] textArr = text.trim().split(" ");
 		for(String token : textArr){
 			if(stopwords.contains(token)){
-				terms.add(sb.toString().trim());
+				if(!sb.toString().equals(" ") && !sb.toString().equals(""))
+					terms.add(sb.toString().trim());
 				sb = new StringBuilder();
 			}
 			else{

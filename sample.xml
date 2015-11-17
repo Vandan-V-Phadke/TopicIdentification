@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF >
+<skos:Concept>
+<skos:prefLabel>Relational database model</skos:prefLabel>
+<skos:altLabel >relational data models</skos:altLabel>
+<skos:altLabel >relational data model</skos:altLabel>
+<skos:altLabel >relational database models</skos:altLabel>
+</skos:Concept>
+<skos:Concept >
+	<skos:prefLabel>Hierarchical data models</skos:prefLabel>
+	<skos:altLabel>hierarchical data model</skos:altLabel>
+	<skos:altLabel>hierarchical database models</skos:altLabel>
+	<skos:altLabel>hierarchical database model</skos:altLabel>
+</skos:Concept>
+<skos:Concept rdf:about="#10002974" xml:lang="en">
+<skos:prefLabel xml:lang="en">Multidimensional range search</skos:prefLabel>
+<skos:altLabel xml:lang="en">range search in multidimensional data</skos:altLabel>
+<skos:altLabel xml:lang="en">multi-dimensional range search</skos:altLabel>
+<skos:altLabel xml:lang="en">multi dimensional range search</skos:altLabel>
+<skos:altLabel xml:lang="en">range search in multi-dimensional data</skos:altLabel>
+<skos:altLabel xml:lang="en">range search in multi dimensional data</skos:altLabel>
+<skos:altLabel xml:lang="en">multidimensional range searching</skos:altLabel>
+<skos:altLabel xml:lang="en">multi dimensional range searching</skos:altLabel>
+<skos:altLabel xml:lang="en">multi-dimensional range searching</skos:altLabel>
+<skos:altLabel xml:lang="en">two-dimensional range search</skos:altLabel>
+<skos:altLabel xml:lang="en">2-dimensional range search</skos:altLabel>
+<skos:altLabel xml:lang="en">2-dimensional range searching</skos:altLabel>
+<skos:altLabel xml:lang="en">two-dimensional range searching</skos:altLabel>
+<skos:inScheme rdf:resource="http://totem.semedica.com/taxonomy/The ACM Computing Classification System (CCS)"/>
+<skos:broader rdf:resource="#10003450"/>
+</skos:Concept>
+</rdf:RDF>

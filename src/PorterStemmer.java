@@ -67,6 +67,12 @@ public class PorterStemmer{
       }
       b[i++] = ch;
    }
+   
+   public void reset(){
+	   b = new char[INC];
+		i = 0;
+		i_end = 0;
+   }
 
 
    /** Adds wLen characters to the word being stemmed contained in a portion

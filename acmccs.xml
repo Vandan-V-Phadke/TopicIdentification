@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE rdf:RDF [
+<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+<!ENTITY skos "http://www.w3.org/2004/02/skos/core#">
+<!ENTITY dc "http://purl.org/dc/elements/1.1/">
+]>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+>
+<skos:ConceptScheme rdf:about="http://totem.semedica.com/taxonomy/The ACM Computing Classification System (CCS)">
+<dc:title>The ACM Computing Classification System (CCS)</dc:title>
+<dc:date>2012</dc:date>
+<skos:hasTopConcept rdf:resource="#10002944"/>
+<skos:hasTopConcept rdf:resource="#10002950"/>
+<skos:hasTopConcept rdf:resource="#10002951"/>
+<skos:hasTopConcept rdf:resource="#10002978"/>
+<skos:hasTopConcept rdf:resource="#10003033"/>
+<skos:hasTopConcept rdf:resource="#10003120"/>
+<skos:hasTopConcept rdf:resource="#10003456"/>
+<skos:hasTopConcept rdf:resource="#10003752"/>
+<skos:hasTopConcept rdf:resource="#10010147"/>
+<skos:hasTopConcept rdf:resource="#10010405"/>
+<skos:hasTopConcept rdf:resource="#10010520"/>
+<skos:hasTopConcept rdf:resource="#10010583"/>
+<skos:hasTopConcept rdf:resource="#10011007"/>
+<skos:hasTopConcept rdf:resource="#10011641"/>
+</skos:ConceptScheme>
 <skos:Concept rdf:about="#10002944" xml:lang="en">
 <skos:prefLabel xml:lang="en">General and reference</skos:prefLabel>
 <skos:altLabel xml:lang="en">general and reference works</skos:altLabel>
