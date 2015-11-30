@@ -17,4 +17,9 @@ public class StopWords {
 		} 
 		return list_stop_words; 
 	}
+	
+	public static HashSet<String> getImpWordsFromCCS(){
+		XMLParser2 parser = new XMLParser2("acmccs.xml");
+		return parser.getStopwords();
+	}
 }

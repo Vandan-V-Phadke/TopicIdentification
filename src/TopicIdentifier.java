@@ -47,7 +47,7 @@ public class TopicIdentifier {
 	}
 
 	private HashMap<String, Integer> getTopicFromString(String paper_abstract) {
-		PreProcessor preProcessor = new PreProcessor(paper_abstract);
+		PreProcessor preProcessor = new PreProcessor(paper_abstract, true);
 		List<String> abstract_terms = preProcessor.getProcessedText();
 		System.out.println(abstract_terms);
 		HashMap<String, Integer> weights = new HashMap<String, Integer>();
